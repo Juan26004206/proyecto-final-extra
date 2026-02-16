@@ -1,0 +1,27 @@
+ALGORITMO DEL COTIZADOR — PUNTOS EXTRA
+
+1. Iniciar el programa.
+2. Mostrar mensaje para iniciar o escribir “Salir”.
+3. Si el usuario escribe “Salir”, terminar el programa.
+4. Solicitar el nombre del asegurado.
+5. Solicitar la edad del asegurado.
+6. Verificar que sea mayor de edad.
+7. Solicitar si está casado.
+8. Si está casado, solicitar la edad del cónyuge.
+9. Solicitar si tiene hijos.
+10. Si tiene, solicitar cuántos hijos tiene.
+11. Solicitar si tiene propiedades.
+12. Si tiene, solicitar cuántas propiedades posee.
+13. Solicitar el salario mensual del asegurado.
+14. Inicializar el recargo total en cero.
+15. Calcular recargo por edad del asegurado.
+16. Calcular recargo por edad del cónyuge (si aplica).
+17. Calcular recargo por cantidad de hijos.
+18. Calcular recargo por cantidad de propiedades (35% por propiedad).
+19. Calcular recargo por ingresos (5% del salario).
+20. Sumar todos los recargos.
+21. Calcular el precio final: precio_base + recargo_total.
+22. Mostrar el recargo total.
+23. Mostrar el precio final.
+24. Regresar al paso 2 para permitir otra cotización.
+25. Fin del programa.

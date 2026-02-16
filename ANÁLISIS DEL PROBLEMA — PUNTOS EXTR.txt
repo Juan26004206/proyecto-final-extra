@@ -1,0 +1,15 @@
+ANÁLISIS DEL PROBLEMA — PUNTOS EXTRA
+
+La empresa de seguros TK‑U necesita un sistema que permita realizar cotizaciones de forma rápida y automática. El programa original solo permitía realizar una cotización por ejecución, lo cual limita la productividad y no permite atender a muchos clientes.
+
+Para mejorar el sistema, se solicita que el programa pueda realizar múltiples cotizaciones sin reiniciar, permitiendo que el usuario escriba la palabra “Salir” para finalizar. Esto hace que el proceso sea más eficiente y continuo.
+
+Además de los recargos originales (edad del asegurado, edad del cónyuge y cantidad de hijos), se agregan dos nuevos factores que afectan el precio final:
+
+1. Cantidad de propiedades del asegurado:
+   Cada propiedad genera un recargo del 35% del precio base. Esto se debe a que una persona con más bienes requiere mayor cobertura.
+
+2. Ingresos mensuales del asegurado:
+   Se aplica un recargo del 5% sobre el salario mensual. Esto representa un ajuste basado en la capacidad económica del cliente.
+
+El problema consiste en integrar todos estos factores dentro de un programa que calcule el recargo total y el precio final del seguro, permitiendo repetir el proceso tantas veces como sea necesario.
